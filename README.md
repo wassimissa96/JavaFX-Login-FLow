@@ -1,17 +1,20 @@
 # JavaFX Login Flow
 
-Modular SignUp → SignIn → Loggedin flow in JavaFX. Styled UI, scene transitions, and SQLite integration.
+A modular JavaFX application demonstrating a complete SignUp → SignIn → Loggedin flow with database integration and styled UI transitions.
 
-## Features
-- Modular UI (SignUp.java, SignIn.java, Loggedin.java)
-- Scene transitions with `getScene(Stage stage)`
-- SQLite user registration and login
-- Field validation and error handling
+---
 
-## Setup
-1. Clone the repo
-2. Open in your IDE
-3. Run `Launcher.java`
-
-## License
-MIT
+## 🔧 Folder Structure
+```
+src/ 
+├── JavaApps/         # Standalone demos and reusable UI components 
+│   ├── ShowImageOnClick.java 
+│   └── SignInUPInterface.java 
+├── UserInterface/    # Main app flow and database logic 
+│   ├── SignUp.java
+│   ├── SignIn.java 
+│   ├── Loggedin.java 
+│   ├── Launcher.java 
+│   └── DBConnection.java 
+└── module-info.java  # JavaFX module declaration
+```
