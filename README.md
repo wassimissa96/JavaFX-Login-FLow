@@ -1,6 +1,6 @@
 # JavaFX Login Flow
 
-A modular JavaFX application demonstrating a complete SignUp → SignIn → Loggedin flow with database integration and styled UI transitions.
+A modular **JavaFX** application demonstrating a complete SignUp → SignIn → Loggedin flow with database integration and styled UI transitions.
 
 ---
 
